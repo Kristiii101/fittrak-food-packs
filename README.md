@@ -12,7 +12,11 @@ country.
 ## Contents
 
 - Product names (the country's language, English and the product's main language), brand, barcode,
-  energy, protein, carbohydrates, fat, fiber, serving size, and vitamins and minerals when listed.
+  serving size, and per 100 g: energy, fat, saturated fat, carbohydrates, sugars, protein and salt
+  (the values EU labels must show).
+- `estimated`: fiber, vitamins and minerals. The Open Food Facts export mixes label values with its
+  own estimates from the ingredient list without saying which is which, so all of these are treated
+  as estimates and the app marks them as estimated.
 - `categories`: the median vitamin and mineral values of products in each Open Food Facts category,
   computed from products worldwide that list them. The app uses them to **estimate** values a
   product does not list, and marks them as estimated.
